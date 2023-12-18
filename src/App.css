@@ -1,0 +1,24 @@
+.rotationClass {
+  animation: rotation360 15s infinite linear;
+  overflow: hidden;
+}
+
+@keyframes rotation360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
