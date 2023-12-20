@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .rotationClass {
   animation: rotation360 15s infinite linear;
   overflow: hidden;
